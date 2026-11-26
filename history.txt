@@ -1,0 +1,612 @@
+    1  nano hellow.sh
+    2  ls -la
+    3  git add hellow.sh
+    4  ls -la
+    5  git commit hellow.sh
+    6  ssh-keygen -t ed25519 -C "assassinscreedblackflag897@gmail.com"
+    7  nano ~/.ssh/id_ed25519.pub
+    8  git remote add origin git@github.com:IBZELDIEV/devopsweek1.git
+    9  git remote -v
+   10  git config --global user.email "x00215326@mytudublin.ie"
+   11  git config --global user.name IBZELDIEV
+   12  git commit -m "first version"
+   13  git push -u origin main
+   14  nano hellow.sh
+   15  git add hellow.sh
+   16  git commit -m "second version"
+   17  git push
+   18  ls -la
+   19  cd devops
+   20  ls -la
+   21  mkdir week2
+   22  cd week2
+   23  ls -la
+   24  git init
+   25  git pull https://github.com/IBZELDIEV/devopsweek1
+   26  ls -la
+   27  ls
+   28  nano hellow.sh
+   29  git add .
+   30  git commit .
+   31  git push
+   32  ssh -T git@github.com
+   33  ls -la
+   34  git remote -v
+   35  git remote add origin git@github.com:IBZELDIEV/devopsweek1.git
+   36  git push
+   37  git commit "third version"
+   38  git tag -a ver1 dfac
+   39  ls -la
+   40  cd devops
+   41  ls
+   42  cd week2
+   43  ls
+   44  nano hellow.sh
+   45  git pull https://github.com/IBZELDIEV/devopsweek1
+   46  git log --oneline
+   47  git commit --amend -m "third version"
+   48  git log --online
+   49  git log --oneline
+   50  git add .
+   51  git push -u origin main
+   52  git status
+   53  git status
+   54  git branch
+   55  git remote -v
+   56  git fetch origin
+   57  git log --oneline --graph --decorate --all -10
+   58  ls -la
+   59  git branch -M main
+   60  git push -u origin main
+   61  ls -la
+   62  git tag -a ver1 aaf7a98
+   63  ls
+   64  cd devops
+   65  ls
+   66  cd week2
+   67  ls
+   68  cd devops
+   69  ls
+   70  cd week2
+   71  git pull https://github.com/IBZELDIEV/devopsweek1
+   72  echo hello.sh
+   73  ls
+   74  echo hellow.sh
+   75  nano hellow.sh
+   76  git tag -a ver1 aaf7
+   77  git tag -a ver2 9358
+   78  git tag -a ver3 2319
+   79  git tag -a ver3 2391
+   80  git log
+   81  git remote add origin https://github.com/IBZELDIEV/devopsweek1.git
+   82  git push -u origin main
+   83  git push origin --tags
+   84  ls
+   85  mkdir week2tag
+   86  cd week2tag
+   87  git tags
+   88  git fetch --tags
+   89  ls
+   90  git fetch origin tag ver1
+   91  git checkout -b tag-test ver1
+   92  vi hellow.sh
+   93  git tag
+   94  git add .
+   95  git commit .
+   96  git push -u origin tag-test
+   97  ls
+   98  cd devops
+   99  ls
+  100  cd week2
+  101  ls
+  102  cd ..
+  103  ls
+  104  git clone https://github.com/IBZELDIEV/devopsweek1
+  105  ls
+  106  cd devopsweek1
+  107  ls
+  108  git switch -c CR101
+  109  nano cr101.sh
+  110  git add cr101.sh
+  111  git commit -m "cr101.sh -m"cr101"
+  112  1st
+  113  git log --oneline
+  114  git commit -m "cr101.sh" -m "cr101"
+  115  git push origin CR101
+  116  git remote -v
+  117  ssh -T git@github.com
+  118  git push -u origin cr101
+  119  git push -u origin CR101
+  120  git remote -v
+  121  git remote set-url origin git@github.com:IBZELDIEV/devopsweek1.git
+  122  git push origin CR101
+  123  ls
+  124  pwd
+  125  git switch -c CR102
+  126  nano cr102.sh
+  127  git add cr102.sh
+  128  git commit -m cr102.sh -m "cr102"
+  129  git push origin CR102
+  130  PWD
+  131  pwd
+  132  ls
+  133  cd devops
+  134  ls
+  135  cd devopsweek1
+  136  pwd
+  137  ls
+  138  cd devops
+  139  ls
+  140  cd devopsweek1
+  141  ls
+  142  git pull origin main
+  143  git branch
+  144  git clone git@github.com:IBZELDIEV/devopsweek1.git
+  145  ls
+  146  git pull origin main
+  147  cd devopsweek1
+  148  git pull origin main
+  149  git checkout main
+  150  git merge origin/CR102
+  151  git push -u origin main
+  152  ssh-keygen -t ed25519 -C "ibrahimeldiev123@gmail.com"
+  153  nano ~/.ssh/id_ed25519_second.pub
+  154  cat ~/.ssh/id_ed25519_second.pub
+  155  cat ~/.ssh/id_ed25519.pub
+  156  ssh -T git@github.com
+  157  pwd
+  158  ls
+  159  cd devops
+  160  ls
+  161  cd devops
+  162  ls
+  163  git clone https://github.com/IBZELDIEV/devsopsProj.git
+  164  ls
+  165  cd devsopsproj1
+  166  cd devsopsProj
+  167  ls
+  168  git branch
+  169  git status
+  170  nano count1.sh
+  171  nano count2.sh
+  172  nano count3.sh
+  173  nano count4.sh
+  174  nano count5.sh
+  175  nano count 6.sh
+  176  nano count6.sh
+  177  nano count7.sh
+  178  nano count8.sh
+  179  nano count9.sh
+  180  nano count10.sh
+  181  bash count1.sh
+  182  bash count2.sh
+  183  chmod +x count*.sh
+  184  bash count1.sh
+  185  git add .
+  186  git commit -m "Add 10 counting scripts"
+  187  git push origin main
+  188  git remote set-url origin git@github.com:IBZELDIEV/devsopsProj.git
+  189  ssh -T git@github.com
+  190  git push origin main
+  191  nano count10.sh
+  192  bash count1.sh
+  193  git add count10.sh
+  194  git commit -m "change count10 to TEN",fixes #12"
+  195  git push origin main
+  196  git commit --allow-empty -m "Fix count10 output to TEN, fixes #12"
+  197  git push origin main
+  198  gemini
+  199  gcloud config set project certain-nexus-470803-i4
+  200  export GOOGLE_CLOUD_PROJECT=certain-nexus-470803-i4
+  201  gcloud services enable cloudaicompanion.googleapis.com
+  202  gcloud auth list
+  203  gcloud projects add-iam-policy-binding certain-nexus-470803-i4 --member="user:assassinscreedblackflag897@gmail.com" --role="roles/cloudaicompanion.user"
+  204  gcloud projects add-iam-policy-binding certain-nexus-470803-i4 --member="user:assassinscreedblackflag897@gmail.com" --role="roles/serviceusage.serviceUsageConsumer"
+  205  gemini
+  206  npm install -g @openai/codex
+  207  code
+  208  codex logout
+  209  curl -fsSL https://opencode.ai/v2/install | bash
+  210  opencode
+  211  opencode --version
+  212  exec $SHELL
+  213  opencode --version
+  214  codex
+  215  codex
+  216  opencode
+  217  codex login --device-auth
+  218  gemini
+  219  opencode
+  220  python -m pip install aider-chat
+  221  aider --model openai/gpt-4o
+  222  ree-sitter-language-pack-0.13.0 tree-sitter-yaml-0.7.2 typer-0.23.0 typer-slim-0.23.0 typing-extensions-4.15.0 typing-inspection-0.4.2 urllib3-2.6.3 watchfiles-1.1.1 wcwidth-0.6.0 yarl-1.22.0 zipp-3.23.0
+  223  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ 
+  224  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ aider --model openai/gpt-4o
+  225  -bash: aider: command not found
+  226  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ python -m pip show aider-chat
+  227  git clone https://github.com/pearse1104/x00215326.git
+  228  git remote set-url origin git@github.com:pearse1104/x00215326.git
+  229  ls
+  230  cd devops
+  231  pwd
+  232  git status
+  233  ls
+  234  ssh -T git@github.com
+  235  git remote set-url origin git@github.com:pearse1104/x00215326.git
+  236  ls
+  237  git clone git@github.com:pearse1104/x00215326.git
+  238  ls
+  239  cd x00215326
+  240  git status
+  241  cat hello.txt
+  242  echo "test." > hello.tx
+  243  ls
+  244  rm hello.tx
+  245  ls
+  246  echo "test." > hello.txt
+  247  ls
+  248  git add hello.txt
+  249  git commit -m "Add hello.txt test file"
+  250  git push origin main
+  251  ls
+  252  cd
+  253  cd devops
+  254  ls
+  255  git clone https://github.com/pearse1104/CA1-SOFTWARE.git
+  256  ls
+  257  cd CA1-SOFTWARE
+  258  bash user-setup.sh
+  259  ls
+  260  git remote add origin@github.com:IBZELDIEV/devopsCA1sw.git
+  261  git status
+  262  git add .
+  263  git push -u origin main
+  264  ssh -T git@github
+  265  ssh -T git@github.com
+  266  git remote add origin@github.com:IBZELDIEV/devopsCA1sw.git
+  267  git init
+  268  git push -u origin main
+  269  git remote -v
+  270  git remote set-url origin git@github.com:IBZELDIEV/devopsCA1sw.git
+  271  ssh -T git@github.com
+  272  git add .
+  273  git commit -m "2 files"
+  274  git push -u origin main
+  275  ls
+  276  git clone git@github.com:pearse1104/x00215326.git
+  277  ls
+  278  bash user-setup.sh
+  279  ls
+  280  git add .
+  281  cd ..
+  282  ls
+  283  git clone https://github.com/pearse1104/x00215326
+  284  ls
+  285  cd x00215326
+  286  ls
+  287  pwd
+  288  cd ..
+  289  ls
+  290  cd CA1-SOFTWARE
+  291  LS
+  292  ls
+  293  LS
+  294  ls
+  295  cd devops
+  296  ;ls
+  297  ls
+  298  mkdir -p ~/v1 ~/v2
+  299  ls
+  300  ls ~
+  301  cd ..
+  302  ls
+  303  rmdir ~/v1 ~/v2
+  304  ls
+  305  cd devops
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd e
+  310  cd devops
+  311  ls
+  312  mkdir v1
+  313  mkdir v2
+  314  ls
+  315  rmdir v1 v2
+  316  ls
+  317  cd devops
+  318  mkdir v1 v2
+  319  ls
+  320  cd devops
+  321  ls
+  322  cd v1
+  323  ls
+  324  git clone https://github.com/IBZELDIEV/devsopsproj.git
+  325  cd ..
+  326  cd v2
+  327  git clone https://github.com/IBZELDIEV/devsopsproj.git
+  328  ls
+  329  cd ..
+  330  cd v1
+  331  ls
+  332  cd ..
+  333  cd v1
+  334  git switch -c ONE-V1
+  335  ls
+  336  cd devopsproj
+  337  cd devsopspoj
+  338  ls
+  339  cd devsopsproj
+  340  git switch -c ONE-V1
+  341  cd ..
+  342  cd v2
+  343  cd devsopsproj
+  344  git switch -c ONE-V2
+  345  cd ~/devops/v1/devsopsproj
+  346  ls
+  347  nano count1.sh
+  348  cat count1.sh
+  349  git status
+  350  git add
+  351  git add count1.sh
+  352  git commit -m "Change count1 output to ONE(1)"
+  353  git push -u origin ONE-V1
+  354  git remote set-url origin git@github.com:IBZELDIEV/devsopsproj.git
+  355  git remote -v
+  356  git push -u origin ONE-V1
+  357  cd ~/devops/v2/devsopsproj
+  358  git branch
+  359  ls
+  360  nano count1.sh
+  361  cat count1.sh
+  362  git branch
+  363  git add count1.sh
+  364  git commit -m "Change count1 output to 1(ONE)"
+  365  git push -u origin ONE-V2
+  366  git remote set-url origin git@github.com:IBZELDIEV/devsopsproj.git
+  367  git push -u origin ONE-V2
+  368  ls
+  369  cd ~/devops/v2/devsopsproj
+  370  git fetch origin
+  371  git merge origin/main
+  372  nano count1.sh
+  373  cat count1.sh
+  374  git add count1.sh
+  375  git commit -m "Resolve merge conflict in count1.sh"
+  376  git push origin ONE-V2
+  377  cd ~/devops
+  378  ls
+  379  mkdir v1-2
+  380  mkdir v2-2
+  381  ls
+  382  cd ~/devops/v1-2
+  383  git clone git@github.com:IBZELDIEV/devsopsproj.git
+  384  cd devsopsproj
+  385  git switch -c TWO-V1
+  386  cd ~/devops/v2-2
+  387  git clone git@github.com:IBZELDIEV/devsopsproj.git
+  388  cd devsopsproj
+  389  git switch -c TWO-V2
+  390  git branch
+  391  cd ~/devops/v1-2/devsopsproj
+  392  git branch
+  393  nano count2.sh
+  394  git add count2.sh
+  395  git commit -m "Change count2 output to TWO(2)"
+  396  git remote set-url origin git@github.com:IBZELDIEV/devsopsproj.git
+  397  git push -u origin TWO-V1
+  398  cd ~/devops/v2-2/devsopsproj
+  399  nano count2.sh
+  400  git add count2.sh
+  401  git commit -m "Change count2 output to 2(TWO)"
+  402  git remote set-url origin git@github.com:IBZELDIEV/devsopsproj.git
+  403  git push -u origin TWO-V2
+  404  cd ~/devops/v2-2/devsopsproj
+  405  git fetch origin
+  406  git switch main
+  407  git pull origin main
+  408  cat count2.sh
+  409  git branch -a
+  410  ls
+  411  pwd
+  412  cd devops
+  413  ls
+  414  gh auth status
+  415  gh auth login
+  416  gh auth status
+  417  ls
+  418  cd devops
+  419  ls
+  420  gh auth login
+  421  gh auth status
+  422  gh auth login
+  423  gh auth status
+  424  ls
+  425  gh repo create lab6 --public 
+  426  ls
+  427  mkdir lab6
+  428  ls
+  429  cd lab6
+  430  gh repo create lab6 --public
+  431  ls
+  432  gh api -X PUT repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  433  gh api repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  434  gh api user/repository_invitations
+  435  gh api repos/IBZELDIEV/lab6/invitations
+  436  gh api repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  437  gh api -X DELETE repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  438  gh issue create --repo IBZELDIEV/lab6 --title "create helloworld echo file" --body "echo hello Pearse from lab6" --assignee IBZELDIEV --label enhancement
+  439  git status
+  440  git remote -v
+  441  git clone git@github.com:IBZELDIEV/lab6.git
+  442  git status
+  443  ls
+  444  cd lab6
+  445  git status
+  446  cat > q1.sh <<'EOF'
+  447  #!/bin/bash
+  448  gh repo create lab6 --public
+  449  EOF
+  450  cat > q2.sh <<'EOF'
+  451  #!/bin/bash
+  452  gh api -X PUT repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  453  EOF
+  454  cat > q3.sh <<'EOF'
+  455  #!/bin/bash
+  456  gh api repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  457  EOF
+  458  cat > q4.sh <<'EOF'
+  459  #!/bin/bash
+  460  gh api -X DELETE repos/IBZELDIEV/lab6/collaborators/IBRA8971
+  461  EOF
+  462  cat > q5.sh <<'EOF'
+  463  #!/bin/bash
+  464  gh issue create --repo IBZELDIEV/lab6 --title "create helloworld echo file" --body "echo hello Pearse from lab6" --assignee IBZELDIEV --label enhancement
+  465  EOF
+  466  ls
+  467  git checkout -b Q12345
+  468  git add q1.sh q2.sh q3.sh q4.sh q5.sh
+  469  git commit -m "Add Q1 to Q5 lab scripts"
+  470  git push -u origin Q12345
+  471  ls
+  472  gh pr create --repo IBZELDIEV/lab6 --base main --head Q12345 --title "Merge Q12345" --body "Pull request for merge Q12345 branch"
+  473  git branch -avv
+  474  git log --oneline --decorate --all --graph
+  475  git checkout --orphan main
+  476  git commit --allow-empty -m "Create main branch"
+  477  git push -u origin main
+  478  gh pr create --repo IBZELDIEV/lab6 --base main --head Q12345 --title "Merge Q12345" --body "Pull request for merge Q12345 branch"
+  479  git checkout Q12345
+  480  git branch -D main
+  481  git push origin --delete main
+  482  git checkout -b main
+  483  git push -u origin main
+  484  nano q7.sh
+  485  nano q8.sh
+  486  cat q7.sh
+  487  cat q8.sh
+  488  nano q8.sh
+  489  git add q7.sh q8.sh
+  490  git commit -m "Add Q7 and Q8 scripts"
+  491  git push
+  492  ls
+  493  cd ~~
+  494  cd ~
+  495  ls
+  496  pwd
+  497  ls
+  498  cd devops
+  499  gh auth status
+  500  ls
+  501  mkdir lab9
+  502  ls
+  503  cd lab9
+  504  gh repo create lab9 --public
+  505  gh label create EPIC --description "Epic issue" --color 7057ff --repo IBZELDIEV/lab9
+  506  gh issue create --repo IBZELDIEV/lab9 --title "do lab9" --label EPIC
+  507  gh issue create --title "create validate-data script" --body "Create the validate-data script as required by Lab 9." --assignee @me --repo IBZELDIEV/lab9
+  508  ls
+  509  nano validate-data.sh
+  510  bash validate-data.sh "Ibrahim Eldiev" "01222222"
+  511  bash validate-data.sh "bobby lostonsss" "70222"
+  512  bash validate-data.sh "yoyoyooyoyoyoyoyo" "7070707070070707"
+  513  chmod +x validate-data.sh
+  514  ls
+  515  gh issue create
+  516  mkdir .github
+  517  mkdir .github/workflows
+  518  gh issue list
+  519  git init
+  520  git remote add origin git@github.com:IBZELDIEV/lab9.git
+  521  git remote -v
+  522  Welcome to Cloud Shell! Type "help" to get started.
+  523  Your Cloud Platform project in this session is set to certain-nexus-470803-i4.
+  524  Use `gcloud config set project [PROJECT_ID]` to change to a different project.
+  525  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ pwd
+  526  /home/assassinscreedblackflag897
+  527  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ ls
+  528  devops  README-cloudshell.txt
+  529  assassinscreedblackflag897@cloudshell:~ (certain-nexus-470803-i4)$ cd devops
+  530  assassinscreedblackflag897@cloudshell:~/devops (certain-nexus-470803-i4)$ gh auth status
+  531  github.com
+  532  assassinscreedblackflag897@cloudshell:~/devops (certain-nexus-470803-i4)$ ls
+  533  CA1-SOFTWARE  devopsweek1  devsopsProj  lab6  test1  v1  v1-2  v2  v2-2  week2  x00215326
+  534  assassinscreedblackflag897@cloudshell:~/devops (certain-nexus-470803-i4)$ mkdir lab9
+  535  assassinscreedblackflag897@cloudshell:~/devops (certain-nexus-470803-i4)$ ls
+  536  CA1-SOFTWARE  devopsweek1  devsopsProj  lab6  lab9  test1  v1  v1-2  v2  v2-2  week2  x00215326
+  537  assassinscreedblackflag897@cloudshell:~/devops (certain-nexus-470803-i4)$ cd lab9
+  538  assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh repo create lab9 --public
+  539  ✓ Created repository IBZELDIEV/lab9 on github.com
+  540  assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh label create EPIC --description "Epic issue" --color 7057ff --repo IBZELDIEV/lab9
+  541  ✓ Label "EPIC" created in IBZELDIEV/lab9
+  542  assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh issue create --repo IBZELDIEV/lab9 --title "do lab9" --label EPIC
+  543  Creating issue in IBZELDIEV/lab9
+  544  ? Body <Received>
+  545  ? Issue type Task
+  546  ? What's next? Submit
+https://github.com/IBZELDIEV/lab9/issues/1
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh issue create --title "create validate-data script" --body "Create the validate-data script as required by Lab 9." --assignee @me --repo IBZELDIEV/lab9
+
+Creating issue in IBZELDIEV/lab9
+
+https://github.com/IBZELDIEV/lab9/issues/2
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ ls
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ nano validate-data.sh
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ bash validate-data.sh "Ibrahim Eldiev" "01222222"
+PASS
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ bash validate-data.sh "bobby lostonsss" "70222"
+PASS
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ bash validate-data.sh "yoyoyooyoyoyoyoyo" "7070707070070707"
+FAIL
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ chmod +x validate-data.sh
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ ls
+validate-data.sh
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh issue create
+failed to run git: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ mkdir .github
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ mkdir .github/workflows
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ gh issue list
+failed to run git: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+assassinscreedblackflag897@cloudshell:~/devops/lab9 (certain-nexus-470803-i4)$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empD
+
+
+
+
+
+
+  547  git branch -M main
+  548  gh issue list
+  549  gh issue create --title "create yaml test script" --body "Create the YAML test script for GitHub Actions." --assignee @me --repo IBZELDIEV/lab9
+  550  LS
+  551  ls
+  552  nano .github/workflows/basictests.yml
+  553  git add .
+  554  git commit -m "Add validation script and GitHub Actions"
+  555  git push -u origin main
+  556  gh issue list
+  557  gh issue close 2
+  558  gh issue close 3
+  559  gh issue create --repo IBZELDIEV/lab9 --title "create lab9 project view" --body "Create a GitHub project called lab9 with one simple table view containing only LABEL, TITLE and ASSIGNEE columns." --assignee @me --label enhancement
+  560  ls
+  561  git switch -c test
+  562  nano validate-data.sh
+  563  bash validate-data.sh "abcdefghijklmnopqrst" "0123456789"
+  564  git add .
+  565  git commit -m  "updated 15 to 20"
+  566  git push -u origin test
+  567  history > history.txt
