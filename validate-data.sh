@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ${#1} -le 15 ] && [ ${#2} -le 10 ]
+if [ ${#1} -le 20 ] && [ ${#2} -le 10 ]
 then
     echo PASS
 else
