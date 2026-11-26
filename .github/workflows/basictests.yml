@@ -1,0 +1,17 @@
+name: Basic Tests
+
+on: [push]
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository
+        uses: actions/checkout@v4
+
+      - name: Run tests
+        run: |
+          bash validate-data.sh "Ibrahim Eldiev" "01222222"
+          bash validate-data.sh "bobby lostonsss" "70222"
+          bash validate-data.sh "yoyoyooyoyoyoyoyo" "7070707070070707"
